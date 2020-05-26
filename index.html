@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset=”utf-8” />
+    <link href="style.css" rel="stylesheet" >
+  </head>
+
+  <body>
+    <div class="main_block">
+      <div class="right">
+        <div class="question">
+          <div class="quote_photo">
+            <img src="images/quote.png">
+          </div>
+          <div class="quoteText">
+            <blockquote class="hello">
+              Я кидаю фишки на стол, это all-in - ну и что?
+              <p class="quoteAuthor">— Андрей Сидоров </p>
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="main_body">
+          <h1 class="h1">Иван Радюшкин</h1>
+          <hr class="line" />
+          <p class="main_text">
+              Мы с Иваном Ильичом работали на дизеле...
+          </p>
+          <h2 class="h2">Обо мне:</h2>
+          <p class="main_text">
+              Ученик 10 класса. Люблю музыку, фильмы и игры.
+          </p>
+        </div>
+      </div>
+
+     <div class="left">
+        <div class="photo1">
+          <img src="images/Ivan.jpg" class="photo1">
+        </div>
+        <div class="subjects">
+          <h3 class="h3">Любимые пердметы в школе</h3>
+          <ul class="subject">
+            <li>Web-программирование</li>
+            <li>Информатика</li>
+            <li>ну и все</li>
+            <li>еще люблю перемену</li>
+          </ul>
+        </div>
+        <div class="films">
+          <h3 class='h3'>Любимые фильмы</h3>
+          <ol class="subject">
+            <li>Бумер</li>
+            <li>Жмурки</li>
+            <li>Бригада</li>
+            <li>Бандитский Петербург</li>
+          </ol>
+        </div>
+      </div>
+
+
+      <div class="request">
+        <div class="RText">
+          <p>Напишите мне:</p>
+        </div>
+        <form method="GET" class="form">
+          <label for="your_name" class="for_text">Ваше имя</label><br>
+          <input type="text" id="your_name" for_text="your_name" required class="for_field"/><br>
+          <label for="email" class="for_text">Ваш email</label><br>
+          <input type="email" id="email" for_text="email" required class="for_field"/><br>
+          <label for="country" class="for_text">Откуда вы?</label><br>
+          <select name="country" id="country" class="for_country">
+            <option value="rus" class="input_text">Россия</option>
+            <option value="uk" class="input_text">Украина</option>
+            <option value="by" class="input_text">Беларусь</option>
+            <option value="eng" class="input_text">Великобритания</option>
+            <option value="fr" class="input_text">Франция</option>
+            <option value="ger" class="input_text">Германия</option>
+            <option value="usa" class="input_text">США</option>
+          </select>
+          <p class="for_gender">Ваш пол</p>
+          <input type="radio"  id="male" name="gender" value="male">
+          <label for="male" class="for_text">Мужской</label>
+          <input type="radio"  id="female" name="gender" value="female">
+          <label for="female" class="for_text">Женский</label><br>
+          <label for="message" class="for_text">Ваше сообщение</label><br>
+          <textarea name="message" required id="message" class="for_message"></textarea><br>
+          <input type="submit" value="Отправить" class="submit">
+        </form>
+      </div>
+    </div>
+  </body
+</html>
